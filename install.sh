@@ -9,10 +9,10 @@ clear
 
 installTheme(){
     cd /var/www/
-    tar -cvf ThemaKrisBotzbackup.tar.gz pterodactyl
+    tar -cvf ThemaLexxybackup.tar.gz pterodactyl
     echo "Installing theme..."
     cd /var/www/pterodactyl
-    rm -r ThemaKrisBotz
+    rm -r ThemaLexxy
     git clone https://github.com/denihosting/ThemaKrisBotz.git 
     cd ThemaKrisBotz
     rm /var/www/pterodactyl/resources/scripts/ThemaKrisBotz.css
@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/denihosting/ThemaKrisBotz/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/walkerhosting/ThemaKrisBotz/main/repair.sh)
 }
 
 restoreBackUp(){
