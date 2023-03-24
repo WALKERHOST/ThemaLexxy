@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/walkerhosting/ThemaKrisBotz/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/walkerhosting/ThemaLexxy/main/repair.sh)
 }
 
 restoreBackUp(){
