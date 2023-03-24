@@ -13,7 +13,7 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r ThemaLexxy
-    git clone https://github.com/denihosting/ThemaKrisBotz.git 
+    git clone https://github.com/walkerhosting/ThemaKrisBotz.git 
     cd ThemaKrisBotz
     rm /var/www/pterodactyl/resources/scripts/ThemaKrisBotz.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
